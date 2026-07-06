@@ -28,15 +28,15 @@ A reusable Vue 3 classification banner component for displaying application clas
 ## Installation
 
 ```bash
-npm install vue-classification-banner
+npm install @matthewenderle/vue-classification-banner
 ```
 
 ```bash
-pnpm add vue-classification-banner
+pnpm add @matthewenderle/vue-classification-banner
 ```
 
 ```bash
-yarn add vue-classification-banner
+yarn add @matthewenderle/vue-classification-banner
 ```
 
 ## Vue Usage
@@ -47,8 +47,8 @@ Register the plugin in `main.ts`.
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import VueClassificationBanner from "vue-classification-banner";
-import "vue-classification-banner/style.css";
+import VueClassificationBanner from "@matthewenderle/vue-classification-banner";
+import "@matthewenderle/vue-classification-banner/style.css";
 
 createApp(App)
   .use(VueClassificationBanner, {

@@ -1,5 +1,5 @@
 {
-  "name": "vue-classification-banner",
+  "name": "@matthewenderle/vue-classification-banner",
   "version": "0.1.0",
   "description": "A reusable Vue 3 and Nuxt classification banner component with configurable text, colors, and project-wide defaults.",
   "type": "module",
